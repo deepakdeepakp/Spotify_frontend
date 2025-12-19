@@ -26,7 +26,7 @@ function Login({ onLogin }) {
         ? { email: formData.email, password: formData.password }
         : formData;
 
-      const response = await fetch(`https://spotify-backend-lsbe.onrender.com${endpoint}`, {
+      const response = await fetch(`https://spotify-backend-40p7.onrender.com${endpoint}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
