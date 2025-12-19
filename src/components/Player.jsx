@@ -24,7 +24,10 @@ function Player({ currentSong, setCurrentSong, isPlaying, setIsPlaying, playlist
 
   useEffect(() => {
     if (currentSong && audioRef.current) {
-      audioRef.current.src = currentSong.audioUrl;
+      const audioUrl = currentSong.audioUrl.startsWith('http') 
+        ? currentSong.audioUrl 
+        : `http://localhost:3000${currentSong.audioUrl}`;
+      audioRef.current.src = audioUrl;
       audioRef.current.load();
     }
   }, [currentSong]);
