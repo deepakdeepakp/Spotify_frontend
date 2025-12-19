@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || 
-  (import.meta.env.MODE === 'development' ? 'http://localhost:3000/api' : 'http://localhost:3000/api');
+  (import.meta.env.MODE === 'development' ? 'http://localhost:3000/api' : 'https://spotify-backend-40p7.onrender.com/api');
 
 class ApiService {
   constructor() {
