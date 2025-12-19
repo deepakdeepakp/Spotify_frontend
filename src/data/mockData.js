@@ -36,6 +36,24 @@ export const playlists = [
 export const songs = [
   {
     id: 1,
+    title: "Vaathi Coming",
+    artist: "Anirudh Ravichander",
+    album: "Master",
+    duration: "4:20",
+    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop",
+    audioUrl: "https://raw.githubusercontent.com/deepakdeepakp/spotify_songs/main/vaathi-coming.mp3"
+  },
+  {
+    id: 2,
+    title: "Powerhouse",
+    artist: "Raymond Scott",
+    album: "Cartoon Music",
+    duration: "2:45",
+    image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    audioUrl: "https://raw.githubusercontent.com/deepakdeepakp/spotify_songs/main/powerhouse.mp3"
+  },
+  {
+    id: 3,
     title: "Blinding Lights",
     artist: "The Weeknd",
     album: "After Hours",
@@ -44,7 +62,7 @@ export const songs = [
     audioUrl: "https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3"
   },
   {
-    id: 2,
+    id: 4,
     title: "Watermelon Sugar",
     artist: "Harry Styles",
     album: "Fine Line",
@@ -53,7 +71,7 @@ export const songs = [
     audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_700KB.mp3"
   },
   {
-    id: 3,
+    id: 5,
     title: "Levitating",
     artist: "Dua Lipa",
     album: "Future Nostalgia",
@@ -62,31 +80,13 @@ export const songs = [
     audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_1MG.mp3"
   },
   {
-    id: 4,
+    id: 6,
     title: "Good 4 U",
     artist: "Olivia Rodrigo",
     album: "SOUR",
     duration: "2:58",
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
     audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_2MG.mp3"
-  },
-  {
-    id: 5,
-    title: "Stay",
-    artist: "The Kid LAROI & Justin Bieber",
-    album: "F*CK LOVE 3",
-    duration: "2:21",
-    image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
-    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_5MG.mp3"
-  },
-  {
-    id: 6,
-    title: "Vaathi Coming",
-    artist: "Anirudh Ravichander",
-    album: "Master",
-    duration: "4:20",
-    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/magic-chime-02.wav"
   },
   {
     id: 7,
@@ -263,16 +263,16 @@ export const songs = [
 
 export const recentlyPlayed = [
   {
-    id: 6,
+    id: 1,
     title: "Vaathi Coming",
     artist: "Anirudh Ravichander",
     image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop"
   },
   {
-    id: 8,
-    title: "Rowdy Baby",
-    artist: "Dhanush, Dhee",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop"
+    id: 2,
+    title: "Powerhouse",
+    artist: "Raymond Scott",
+    image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop"
   },
   {
     id: 9,
