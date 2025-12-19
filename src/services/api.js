@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://spotify-backend-lsbe.onrender.com/api';
+const API_BASE_URL = 'https://spotify-backend-40p7.onrender.com/api';
 
 class ApiService {
   constructor() {

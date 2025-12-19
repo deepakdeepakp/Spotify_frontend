@@ -6,6 +6,7 @@ import LibraryPage from './components/LibraryPage';
 import AlbumPage from './components/AlbumPage';
 import Player from './components/Player';
 import Login from './components/Login';
+import AddSong from './components/AddSong';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
   const [user, setUser] = useState(null);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [playlist, setPlaylist] = useState([]);
+  const [showAddSong, setShowAddSong] = useState(false);
 
   useEffect(() => {
     const token = localStorage.getItem('token');
@@ -48,6 +50,8 @@ function App() {
         return <SearchPage currentSong={currentSong} setCurrentSong={setCurrentSong} isPlaying={isPlaying} setIsPlaying={setIsPlaying} setSelectedAlbum={setSelectedAlbum} />;
       case 'library':
         return <LibraryPage />;
+      case 'add-song':
+        return <AddSong onSongAdded={() => setCurrentPage('home')} />;
       default:
         return <MainContent currentSong={currentSong} setCurrentSong={setCurrentSong} isPlaying={isPlaying} setIsPlaying={setIsPlaying} setSelectedAlbum={setSelectedAlbum} user={user} onLogout={handleLogout} setPlaylist={setPlaylist} />;
     }
@@ -66,6 +70,23 @@ function App() {
         user={user}
         onLogout={handleLogout}
       />
+      <button 
+        onClick={() => setCurrentPage('add-song')}
+        style={{
+          position: 'fixed',
+          top: '20px',
+          right: '20px',
+          background: '#1db954',
+          color: 'white',
+          border: 'none',
+          padding: '10px 20px',
+          borderRadius: '20px',
+          cursor: 'pointer',
+          zIndex: 1000
+        }}
+      >
+        Add Song
+      </button>
       {renderCurrentPage()}
       <Player
         currentSong={currentSong}
