@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import { FaPlay, FaPause, FaChevronLeft, FaChevronRight, FaChevronDown } from 'react-icons/fa';
-import { playlists, songs as mockSongs } from '../data/mockData';
+import { playlists } from '../data/mockData';
 import apiService from '../services/api';
 
 function MainContent({ currentSong, setCurrentSong, isPlaying, setIsPlaying, setSelectedAlbum, user, onLogout, setPlaylist }) {
   const [showUserMenu, setShowUserMenu] = useState(false);
-  const [songs, setSongs] = useState(mockSongs);
+  const [songs, setSongs] = useState([]);
 
   useEffect(() => {
     fetchSongs();
@@ -19,13 +19,11 @@ function MainContent({ currentSong, setCurrentSong, isPlaying, setIsPlaying, set
         setPlaylist(data);
         console.log(`✅ Loaded ${data.length} songs from MongoDB`);
       } else {
-        setPlaylist(mockSongs);
-        console.log('⚠️ No songs in database, using mock data');
+        console.log('⚠️ No songs in database');
       }
     } catch (error) {
       console.error('❌ Failed to fetch from MongoDB:', error.message);
-      setPlaylist(mockSongs);
-      console.log('📦 Using mock data as fallback');
+      console.log('📦 Backend connection failed');
     }
   };
   const handlePlayPause = async (song) => {
