@@ -95,7 +95,7 @@ export const songs = [
     album: "Master",
     duration: "3:45",
     image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/fail-buzzer-02.wav"
+    audioUrl: "https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3"
   },
   {
     id: 8,
@@ -104,7 +104,7 @@ export const songs = [
     album: "Maari 2",
     duration: "4:10",
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_700KB.mp3"
   },
   {
     id: 9,
@@ -113,7 +113,7 @@ export const songs = [
     album: "Jailer",
     duration: "4:05",
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/magic-chime-02.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_1MG.mp3"
   },
   {
     id: 10,
@@ -122,7 +122,7 @@ export const songs = [
     album: "RRR",
     duration: "4:28",
     image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/fail-buzzer-02.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_2MG.mp3"
   },
   {
     id: 11,
@@ -131,7 +131,7 @@ export const songs = [
     album: "Mersal",
     duration: "4:32",
     image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
+    audioUrl: "https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3"
   },
   {
     id: 12,
@@ -140,7 +140,7 @@ export const songs = [
     album: "Petta",
     duration: "4:18",
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/magic-chime-02.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_700KB.mp3"
   },
   {
     id: 13,
@@ -149,7 +149,7 @@ export const songs = [
     album: "Pushpa",
     duration: "3:52",
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/fail-buzzer-02.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_1MG.mp3"
   },
   {
     id: 14,
@@ -158,7 +158,7 @@ export const songs = [
     album: "Achcham Yenbadhu Madamaiyada",
     duration: "4:55",
     image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_2MG.mp3"
   },
   {
     id: 15,
@@ -167,7 +167,7 @@ export const songs = [
     album: "Viswasam",
     duration: "4:12",
     image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/magic-chime-02.wav"
+    audioUrl: "https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3"
   },
   {
     id: 16,
@@ -176,7 +176,7 @@ export const songs = [
     album: "Bigil",
     duration: "4:08",
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/fail-buzzer-02.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_700KB.mp3"
   },
   {
     id: 17,
@@ -185,7 +185,7 @@ export const songs = [
     album: "Bigil",
     duration: "3:58",
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_1MG.mp3"
   },
   {
     id: 18,
@@ -194,7 +194,7 @@ export const songs = [
     album: "Bigil",
     duration: "4:22",
     image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/magic-chime-02.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_2MG.mp3"
   },
   {
     id: 19,
@@ -203,7 +203,7 @@ export const songs = [
     album: "Roja",
     duration: "5:15",
     image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/fail-buzzer-02.wav"
+    audioUrl: "https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3"
   },
   {
     id: 20,
@@ -212,7 +212,7 @@ export const songs = [
     album: "Sillunu Oru Kaadhal",
     duration: "4:45",
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_700KB.mp3"
   },
   {
     id: 21,
@@ -221,7 +221,7 @@ export const songs = [
     album: "Velipadinte Pusthakam",
     duration: "3:28",
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/magic-chime-02.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_1MG.mp3"
   },
   {
     id: 22,
@@ -230,7 +230,7 @@ export const songs = [
     album: "Petta",
     duration: "3:35",
     image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/fail-buzzer-02.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_2MG.mp3"
   },
   {
     id: 23,
@@ -239,7 +239,7 @@ export const songs = [
     album: "Vivegam",
     duration: "3:42",
     image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
+    audioUrl: "https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3"
   },
   {
     id: 24,
@@ -248,7 +248,7 @@ export const songs = [
     album: "Viswasam",
     duration: "3:38",
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/magic-chime-02.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_700KB.mp3"
   },
   {
     id: 25,
@@ -257,7 +257,7 @@ export const songs = [
     album: "Saaho",
     duration: "4:25",
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
-    audioUrl: "https://www.soundjay.com/misc/sounds/fail-buzzer-02.wav"
+    audioUrl: "https://file-examples.com/storage/fe68c8a7c4bb3b2b8e8b3b8/2017/11/file_example_MP3_1MG.mp3"
   }
 ];
 
